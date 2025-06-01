@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MV64e.RD", "MV64e.RD\MV64e.RD.csproj", "{2FD20900-9F57-4E53-8592-92AE06960745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MV64e.RD.Test", "MV64e.RD.Test\MV64e.RD.Test.csproj", "{BD4AD83B-EE86-4103-B4B5-10D3411FE6C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD20900-9F57-4E53-8592-92AE06960745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD20900-9F57-4E53-8592-92AE06960745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD20900-9F57-4E53-8592-92AE06960745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD20900-9F57-4E53-8592-92AE06960745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4AD83B-EE86-4103-B4B5-10D3411FE6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4AD83B-EE86-4103-B4B5-10D3411FE6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4AD83B-EE86-4103-B4B5-10D3411FE6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4AD83B-EE86-4103-B4B5-10D3411FE6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
