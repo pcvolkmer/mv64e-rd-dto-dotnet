@@ -888,9 +888,6 @@ namespace MV64e.RD
         [JsonProperty("patient", Required = Required.Always)]
         public Reference Patient { get; set; }
 
-        [JsonProperty("position", Required = Required.Always)]
-        public long Position { get; set; }
-
         [JsonProperty("proteinChange", Required = Required.DisallowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string ProteinChange { get; set; }
 
@@ -908,6 +905,12 @@ namespace MV64e.RD
 
         [JsonProperty("zygosity", Required = Required.Always)]
         public VariantZygosityCoding Zygosity { get; set; }
+        
+        [JsonProperty("startPosition", Required = Required.Always)]
+        public long StartPosition { get; set; }
+        
+        [JsonProperty("endPosition", Required = Required.Always)]
+        public long EndPosition { get; set; }
     }
 
     public partial class SmallVariantAcmgCriterion
